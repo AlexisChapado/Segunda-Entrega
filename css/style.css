@@ -1,0 +1,51 @@
+/************************************************************************************/
+/****************************************CSS Defaul**********************************/
+/************************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Poetsen;
+    src: url(../font/Poetsen.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url(../font/DMSans.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Sedan;
+    src: url(../font/Sedan.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../font/JosefinSans.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/************************************************************************************/
+/****************************************INDEX.html**********************************/
+/************************************************************************************/
+
+
+
+.hero {
+
+    background-image: url(../img/fondo\ negro.jpg);
+    height: 90vh;
+
+}
