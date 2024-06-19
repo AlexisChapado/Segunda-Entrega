@@ -25,7 +25,7 @@
 @font-face {
     font-family: Sedan;
     src: url(../font/Sedan.ttf);
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -47,5 +47,28 @@
 
     background-image: url(../img/fondo\ negro.jpg);
     height: 90vh;
+    width: 100%;
+    font-family: Sedan;
 
 }
+
+h2 {
+    font-size: 4rem
+}
+
+.cajaForm {
+
+    height: 90vh;
+    width: 100%;
+}
+
+.fondoContacto {
+
+    display: flex;
+
+    height: 90vh;
+    width: 100%; 
+    color: white;
+
+}
+
