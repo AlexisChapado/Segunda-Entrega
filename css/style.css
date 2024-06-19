@@ -70,5 +70,19 @@ h2 {
     width: 100%; 
     color: white;
 
+    padding: 20%;
+
 }
 
+
+.buttonEnviar {
+
+    display: flex;
+
+}
+
+
+.footer {
+    background-color: rgb(233, 229, 229);
+    padding: .5rem;
+}
