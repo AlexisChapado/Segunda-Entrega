@@ -1,88 +1,73 @@
-/************************************************************************************/
-/****************************************CSS Defaul**********************************/
-/************************************************************************************/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-@font-face {
-    font-family: Poetsen;
-    src: url(../font/Poetsen.ttf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: DMSans; 
-    src: url(../font/DMSans.ttf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Sedan;
-    src: url(../font/Sedan.ttf);
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: JosefinSans;
-    src: url(../font/JosefinSans.ttf);
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-/************************************************************************************/
-/****************************************INDEX.html**********************************/
-/************************************************************************************/
-
-
 
 .hero {
-
-    background-image: url(../img/fondo\ negro.jpg);
-    height: 90vh;
-    width: 100%;
-    font-family: Sedan;
-
+  background-image: url(../img/fondo\ negro.jpg);
+  height: 90vh;
+  width: 100%;
+  font-family: Sedan;
 }
-
-h2 {
-    font-size: 4rem
+.hero h2 {
+  font-size: 4rem;
+  font-family: letraLogo;
 }
 
 .cajaForm {
-
-    height: 90vh;
-    width: 100%;
+  height: 90vh;
+  width: 100%;
 }
-
-.fondoContacto {
-
-    display: flex;
-
-    height: 90vh;
-    width: 100%; 
-    color: white;
-
-    padding: 20%;
-
+.cajaForm .fondoContacto {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  color: white;
+  padding: 20%;
 }
-
-
-.buttonEnviar {
-
-    display: flex;
-
+.cajaForm .fondoContacto .buttonEnviar {
+  display: flex;
 }
-
 
 .footer {
-    background-color: rgb(233, 229, 229);
-    padding: .5rem;
+  background-color: rgb(233, 229, 229);
+  padding: 0.5rem;
 }
+
+.navbar {
+  width: 100%;
+  height: auto;
+}
+
+.mainBiografia {
+  width: 100%;
+  height: 100vh;
+}
+.mainBiografia .contenedorBiografia {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.mainBiografia .contenedorBiografia h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: letraTexto-Extralight;
+}
+.mainBiografia .contenedorBiografia p {
+  font-family: Arsenal;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */

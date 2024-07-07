@@ -1,0 +1,54 @@
+.navbar{
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.mainBiografia {
+    
+    width: 100%;
+    height: 100vh;
+    .contenedorBiografia{
+
+        width: 100%;
+        height: 100vh;
+
+        background-color: $colorFondo1;
+        color: white;
+
+        padding: 2rem;
+
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 2rem;  
+
+        h2{
+            font-size: 3rem;
+            text-align: center;
+            font-family:$letraTexto-Extralight;
+        }
+
+        p{
+
+            font-family: $Arsenal;
+            font-size: 2rem;
+            
+
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    h2 {
+        font-size: 25px;
+    }
+    
+}

@@ -1,0 +1,31 @@
+.cajaForm {
+
+    height: 90vh;
+    width: 100%;
+
+    .fondoContacto {
+
+        display: flex;
+    
+        height: 90vh;
+        width: 100%; 
+        color: white;
+    
+        padding: 20%;
+
+
+        .buttonEnviar {
+
+            display: flex;
+        
+        }
+    
+    }
+}
+
+
+
+.footer {
+    background-color: rgb(233, 229, 229);
+    padding: .5rem;
+}
